@@ -8,19 +8,19 @@
     min-height: 100vh;
     grid-template-rows: minmax(150px, auto) minmax(150px, 1fr);
     grid-template-areas: 
-        "head"
+        "nav"
         "main" ;
     @media(min-width: 768px){
         grid-template-columns: 300px 1fr;
         grid-template-rows: 1fr;
         grid-template-areas:
-            "head main";
+            "nav main";
     }
 }
 
 
-header{
-    grid-area: head;
+#navbar{
+    grid-area: nav;
     background-color: lightblue;;
 }
 
