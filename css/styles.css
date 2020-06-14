@@ -9,6 +9,7 @@
 }
 @media (min-width: 768px) {
   .gridWrap {
+    height: 100vh;
     grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "nav main";
@@ -74,7 +75,7 @@ main .main-textWrap {
 }
 @media (min-width: 768px) {
   main {
-    overflow: hidden;
+    overflow: scroll;
   }
 }
 
