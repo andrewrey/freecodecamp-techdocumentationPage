@@ -36,7 +36,8 @@
   text-decoration: none;
   display: block;
   font-size: 1.5rem;
-  margin: 10px 0;
+  padding: 10px 0;
+  height: 100%;
 }
 #navbar ul li a:hover {
   background-color: lightpink;
@@ -61,6 +62,20 @@
 main {
   grid-area: main;
   background-color: lightcoral;
+}
+main .main-textWrap {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  main .main-textWrap {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    overflow: hidden;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
